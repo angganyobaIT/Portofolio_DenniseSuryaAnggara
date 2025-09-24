@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Dasboard navbar */
+.navbar{
+    background-color:transparent ;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    /* background-color:rgb(242, 234, 211); */
+    background: linear-gradient(to top, rgb(242, 234, 211), rgb(209, 201, 179));
+    border:1px solid rgb(204, 195, 169);
+
+}
+
+.navbar a{
+    color: rgb(52, 79, 31);
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar a:hover{
+    color: rgb(134, 67, 67);
+    transition: 0.5s;
+}
+
+/* Dashboard logo logo */
+.hero1{
+    background: linear-gradient(to bottom, rgb(242, 234, 211), rgb(196, 186, 161));
+    border:1px solid rgb(204, 195, 169);
+    height: 88vh;
+    text-align: center;
+    padding: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* biar kalau layar kecil, logo turun ke baris berikutnya */
+    gap: 40px; /* jarak antar logo */
+    padding: 100px;
+
+}
+
+.logo img {
+    width: 50px;  /* atur ukuran logo */
+    height: auto;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.logo img:hover {
+    transform: scale(1.2); /* efek hover membesar sedikit */
+}

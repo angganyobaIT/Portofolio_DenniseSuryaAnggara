@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Dasboard navbar */
+.navbar{
+    background-color:transparent ;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    background: linear-gradient(to top, rgb(242, 234, 211), rgb(209, 201, 179));
+    border:1px solid rgb(204, 195, 169);
+
+}
+
+.navbar a{
+    color: rgb(52, 79, 31);
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar a:hover{
+    color: rgb(134, 67, 67);
+    transition: 0.5s;
+}
+
+/* Dashboard sertifikat */
+.hero2 {
+  background: linear-gradient(to bottom, rgb(242, 234, 211), rgb(196, 186, 161));
+  border:1px solid rgb(204, 195, 169);
+  height: 86vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.sertifikat-table {
+  margin: 0 auto; 
+  border-collapse: separate;
+  border-spacing: 20px; 
+  text-align: center; 
+}
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 250px; 
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.image-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; 
+  transition: opacity 0.3s ease;
+  border-radius: 20px;
+}
+
+.image-container:hover .overlay {
+  opacity: 1; 
+}
+
+.image-container .overlay p {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}

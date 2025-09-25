@@ -19,10 +19,10 @@
 3. Navigasi ke halaman lain melalui navbar.
 4. Untuk appointment, isi form di `appointment.html`, data akan dipreview di `preview_appointment.html` sebelum dikirim.
 
-## Teknologi yang Digunakan
+## Bahasa yang Digunakan
 
-- HTML5
-- CSS3 (tanpa framework)
+- HTML
+- CSS 
 - JavaScript 
 
 © Dennise Surya Anggara 2025. All Rights Reserved.
